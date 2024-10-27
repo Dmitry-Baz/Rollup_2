@@ -4,9 +4,16 @@
     "description": "Rollup Bundler",
     "main": "index.js",
     "scripts": {
-      "build": "rollup -c"
+        "build": "rollup -c",
+        "start": "rollup -c -w"
     },
     "keywords": [],
     "author": "Bazyk Dmitry",
-    "license": "ISC"
-  }
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-image": "^3.0.3",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-styles": "^4.0.0"
+    }
+}
